@@ -21,3 +21,8 @@ References:
 [1] MP Allen and DJ Tildesley, Computer Simulation of Liquids.
 [2] S Kim and S Karrila, Microhydrodynamics.
 """
+
+# initializes the position vector components of the sphere
+x = 0
+y = 0
+z = 0
