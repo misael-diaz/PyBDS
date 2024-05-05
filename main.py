@@ -31,3 +31,12 @@ z = 0
 F_x = 0
 F_y = 0
 F_z = 0
+
+# simulation start and end times
+time_start = 0.0
+time_end = 1.0
+# simulation time-step (a base-two number because it has an exact binary representation)
+dt = time_step = 2**-16
+
+# determines the number of time steps needed to reach the end-time
+num_steps = int((time_end - time_start) / time_step)
