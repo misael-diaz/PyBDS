@@ -49,10 +49,16 @@ num_steps = int((time_end - time_start) / time_step)
 # defines the "mobility" of the sphere when subjected to Brownian forces
 mob = sqrt(2 * dt)
 
-F_x = normal()
-F_y = normal()
-F_z = normal()
+step = 0
+# simulates Brownian motion of the sphere
+while (step != num_steps):
 
-x += mob * F_x
-y += mob * F_y
-z += mob * F_z
+    F_x = normal()
+    F_y = normal()
+    F_z = normal()
+
+    x += mob * F_x
+    y += mob * F_y
+    z += mob * F_z
+
+    step += 1
