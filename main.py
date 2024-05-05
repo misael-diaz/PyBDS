@@ -22,6 +22,9 @@ References:
 [2] S Kim and S Karrila, Microhydrodynamics.
 """
 
+# imports a normally distributed pseudo-random number generator to conduct our simulation
+from numpy.random import normal
+
 # initializes the position vector components of the sphere
 x = 0
 y = 0
@@ -40,3 +43,7 @@ dt = time_step = 2**-16
 
 # determines the number of time steps needed to reach the end-time
 num_steps = int((time_end - time_start) / time_step)
+
+F_x = normal()
+F_y = normal()
+F_z = normal()
