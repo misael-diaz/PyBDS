@@ -26,3 +26,8 @@ References:
 x = 0
 y = 0
 z = 0
+
+# initializes the Brownian force acting on the sphere
+F_x = 0
+F_y = 0
+F_z = 0
