@@ -68,3 +68,4 @@ main branch (or master branch depending on the configuration that you have chose
 Congratulations you have just merged your first pull request!
 
 That's all you have to do until our next online meeting.
+That's all you have to do until our next online meeting.
